@@ -6,7 +6,7 @@ class DayOne
 {
     /**
      *
-     * @retun int
+     * @return int
      */
     public function __invoke(): int
     {
