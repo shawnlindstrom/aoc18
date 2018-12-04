@@ -21,7 +21,6 @@ class DayOneTest extends TestCase
     {
         $result = (new DayOnePartTwo())->__invoke();
 
-//        $this->assertEquals(5, $result);
-        die(var_dump($result));
+        $this->assertEquals(82516, $result);
     }
 }
