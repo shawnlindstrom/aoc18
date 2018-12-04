@@ -9,7 +9,7 @@ class DayTwoPartTwo
      * @retun int
      * @return string
      */
-    public function __invoke($input): string
+    public static function run($input): string
     {
         $items = file($input);
 

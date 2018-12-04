@@ -11,7 +11,7 @@ class DayOneTest extends TestCase
     /** @test */
     public function it_determines_the_frequency()
     {
-        $result = (new DayOne())->__invoke();
+        $result = DayOne::run();
 
         $this->assertEquals(578, $result);
     }
@@ -19,7 +19,7 @@ class DayOneTest extends TestCase
     /** @test */
     public function it_finds_the_first_repeated_frequency()
     {
-        $result = (new DayOnePartTwo())->__invoke();
+        $result = DayOnePartTwo::run();
 
         $this->assertEquals(82516, $result);
     }

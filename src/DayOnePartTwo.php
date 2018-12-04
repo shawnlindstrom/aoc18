@@ -7,7 +7,7 @@ class DayOnePartTwo
     /**
      * @return int
      */
-    public function __invoke(): int
+    public static function run(): int
     {
         $items = file('./data/day1input.txt');
         $result = 0;

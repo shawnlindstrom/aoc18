@@ -8,7 +8,7 @@ class DayTwo
      * @param string $input
      * @return int
      */
-    public function __invoke($input)
+    public static function run($input): int
 {
         $items = file($input);
 
